@@ -11,6 +11,7 @@ function circleArea() {
     if (val < 1 || val > 100) {
             console.log(val + "is invalid");
             document.getElementById("area").innerHTML = "Bad Value; Try Again";
+            return;
         }
     console.log("valid data; calculating now");
     let area = Math.PI*(val*val)

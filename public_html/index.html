@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Todd's Page</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+        <script src="scripts/circ.js"></script>
+    </head>
+    <body>
+    <header class="main-header">
+        <h1>CIRCLES ROCK</h1>
+    </header>
+    <main>
+        <section class="group">
+            <div class="container">
+                <p>
+                    enter a value for a circle radius, please use a positive number less than 100
+                </p>
+                <form>
+                    <table>
+                        <tr>
+                            <td>Circle Radius:</td>
+                            <td><input type="number" name="IN" id="IN"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="button" value="Submit" onclick="circleArea()">
+                                <input type ="reset" value="Clear Form">
+                            </td>
+                            <td></td><td></td><td></td><td></td>
+                        </tr>
+                    </table>
+                </form>
+                <p id = "area" onmouseover="mOver()" onmouseout = "mOut()"></p>
+                <p id ="circumfrence" onmouseover="mOver()" onmouseout = "mOut()"></p>
+            </div>
+        </section>
+    </main>
+    <footer>Todd Schultz 03/01/2018</footer>
+</body>
+</html>

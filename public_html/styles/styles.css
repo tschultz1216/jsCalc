@@ -58,9 +58,6 @@ section {
 .group:after {
   clear: both;
 }
-.group {
-  zoom: 1; /* IE6&7 */
-}
 
 .content p {
   font-size: 14px;
